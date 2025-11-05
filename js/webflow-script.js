@@ -562,8 +562,7 @@ t[a]||(i===E.EventTypeConsts.MOUSE_CLICK||i===E.EventTypeConsts.MOUSE_SECOND_CLI
                         ]
                     }
                 ],
-                createdOn:0x199b07902f1,
-                useFirstGroupAsInitialState:!1
+                createdOn:0x199b07902f1,useFirstGroupAsInitialState:!1
             },
             "a-7":
             {
