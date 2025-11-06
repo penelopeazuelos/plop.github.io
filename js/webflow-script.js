@@ -5532,6 +5532,76 @@
                 effectIn: null
               },
               createdOn: 0x199b51fe64a
+            },
+            "e-21": {
+              id: "e-21",
+              name: "",
+              animationType: "custom",
+              eventTypeId: "MOUSE_CLICK",
+              action: {
+                id: "",
+                actionTypeId: "GENERAL_START_ACTION",
+                config: {
+                  delay: 0,
+                  easing: "",
+                  duration: 0,
+                  actionListId: "a-7",
+                  affectedElements: {},
+                  playInReverse: !1,
+                  autoStopEventId: "e-22"
+                }
+              },
+              mediaQueries: ["main", "medium", "small", "tiny"],
+              target: {
+                appliesTo: "ELEMENT",
+                styleBlockIds: [],
+                id: "66ccf03f7ceb58d801f12c9e|incomplete_real_trees"
+              },
+              targets: [],
+              config: {
+                loop: !1,
+                playInReverse: !1,
+                scrollOffsetValue: null,
+                scrollOffsetUnit: null,
+                delay: null,
+                direction: null,
+                effectIn: null
+              },
+            },
+            "e-22": {
+              id: "e-22",
+              name: "",
+              animationType: "custom",
+              eventTypeId: "MOUSE_SECOND_CLICK",
+              action: {
+                id: "",
+                actionTypeId: "GENERAL_START_ACTION",
+                config: {
+                  delay: 0,
+                  easing: "",
+                  duration: 0,
+                  actionListId: "a-8",
+                  affectedElements: {},
+                  playInReverse: !1,
+                  autoStopEventId: "e-21"
+                }
+              },
+              mediaQueries: ["main", "medium", "small", "tiny"],
+              target: {
+                appliesTo: "ELEMENT",
+                styleBlockIds: [],
+                id: "66ccf03f7ceb58d801f12c9e|incomplete_real_trees"
+              },
+              targets: [],
+              config: {
+                loop: !1,
+                playInReverse: !1,
+                scrollOffsetValue: null,
+                scrollOffsetUnit: null,
+                delay: null,
+                direction: null,
+                effectIn: null
+              },
             }
           },
           actionLists: {
@@ -5696,6 +5766,62 @@
                     value: "none",
                     target: {
                       id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2fab"
+                    }
+                  }
+                }]
+              }],
+              createdOn: 0x199b07902f1,
+              useFirstGroupAsInitialState: !1
+            },
+            "a-7": {
+              id: "a-7",
+              title: "Abstract 4",
+              actionItemGroups: [{
+                actionItems: [{
+                  id: "a-7-n",
+                  actionTypeId: "GENERAL_DISPLAY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 0,
+                    value: "none",
+                    target: {
+                      id: "66ccf03f7ceb58d801f12c9e|ab4"
+                    }
+                  }
+                }]
+              }, {
+                actionItems: [{
+                  id: "a-7-n-2",
+                  actionTypeId: "GENERAL_DISPLAY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 0,
+                    value: "block",
+                    target: {
+                      id: "66ccf03f7ceb58d801f12c9e|ab4"
+                    }
+                  }
+                }]
+              }],
+              createdOn: 0x199b07860e0,
+              useFirstGroupAsInitialState: !0
+            },
+            "a-8": {
+              id: "a-8",
+              title: "Hide 4",
+              actionItemGroups: [{
+                actionItems: [{
+                  id: "a-8-n",
+                  actionTypeId: "GENERAL_DISPLAY",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 0,
+                    value: "none",
+                    target: {
+                      id: "66ccf03f7ceb58d801f12c9e|ab4"
                     }
                   }
                 }]
