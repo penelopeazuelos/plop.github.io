@@ -2266,7 +2266,7 @@ h1 {
 }
 
 .list-item {
-  cursor: pointer;
+  cursor: default;
   padding-top: 0;
   padding-bottom: 0;
   font-family: Bitter, serif;
