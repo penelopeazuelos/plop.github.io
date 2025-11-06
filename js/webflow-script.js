@@ -5149,318 +5149,6 @@
       4400: function() {
         Webflow.require("ix2").init({
           events: {
-            "e-7": {
-              id: "e-7",
-              name: "",
-              animationType: "custom",
-              eventTypeId: "MOUSE_CLICK",
-              action: {
-                id: "",
-                actionTypeId: "GENERAL_START_ACTION",
-                config: {
-                  delay: 0,
-                  easing: "",
-                  duration: 0,
-                  actionListId: "a",
-                  affectedElements: {},
-                  playInReverse: !1,
-                  autoStopEventId: "e-8"
-                }
-              },
-              mediaQueries: ["main", "medium", "small", "tiny"],
-              target: {
-                appliesTo: "ELEMENT",
-                styleBlockIds: [],
-                id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f80"
-              },
-              targets: [],
-              config: {
-                loop: !1,
-                playInReverse: !1,
-                scrollOffsetValue: null,
-                scrollOffsetUnit: null,
-                delay: null,
-                direction: null,
-                effectIn: null
-              },
-              createdOn: 0x199b06f8492
-            },
-            "e-8": {
-              id: "e-8",
-              name: "",
-              animationType: "custom",
-              eventTypeId: "MOUSE_SECOND_CLICK",
-              action: {
-                id: "",
-                actionTypeId: "GENERAL_START_ACTION",
-                config: {
-                  delay: 0,
-                  easing: "",
-                  duration: 0,
-                  actionListId: "a-2",
-                  affectedElements: {},
-                  playInReverse: !1,
-                  autoStopEventId: "e-7"
-                }
-              },
-              mediaQueries: ["main", "medium", "small", "tiny"],
-              target: {
-                appliesTo: "ELEMENT",
-                styleBlockIds: [],
-                id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f80"
-              },
-              targets: [],
-              config: {
-                loop: !1,
-                playInReverse: !1,
-                scrollOffsetValue: null,
-                scrollOffsetUnit: null,
-                delay: null,
-                direction: null,
-                effectIn: null
-              },
-              createdOn: 0x199b06f8493
-            },
-            "e-9": {
-              id: "e-9",
-              name: "",
-              animationType: "custom",
-              eventTypeId: "MOUSE_CLICK",
-              action: {
-                id: "",
-                actionTypeId: "GENERAL_START_ACTION",
-                config: {
-                  delay: 0,
-                  easing: "",
-                  duration: 0,
-                  actionListId: "a-3",
-                  affectedElements: {},
-                  playInReverse: !1,
-                  autoStopEventId: "e-10"
-                }
-              },
-              mediaQueries: ["main", "medium", "small", "tiny"],
-              target: {
-                appliesTo: "ELEMENT",
-                styleBlockIds: [],
-                id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f94"
-              },
-              targets: [],
-              config: {
-                loop: !1,
-                playInReverse: !1,
-                scrollOffsetValue: null,
-                scrollOffsetUnit: null,
-                delay: null,
-                direction: null,
-                effectIn: null
-              },
-              createdOn: 0x199b0775799
-            },
-            "e-10": {
-              id: "e-10",
-              name: "",
-              animationType: "custom",
-              eventTypeId: "MOUSE_SECOND_CLICK",
-              action: {
-                id: "",
-                actionTypeId: "GENERAL_START_ACTION",
-                config: {
-                  delay: 0,
-                  easing: "",
-                  duration: 0,
-                  actionListId: "a-4",
-                  affectedElements: {},
-                  playInReverse: !1,
-                  autoStopEventId: "e-9"
-                }
-              },
-              mediaQueries: ["main", "medium", "small", "tiny"],
-              target: {
-                appliesTo: "ELEMENT",
-                styleBlockIds: [],
-                id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f94"
-              },
-              targets: [],
-              config: {
-                loop: !1,
-                playInReverse: !1,
-                scrollOffsetValue: null,
-                scrollOffsetUnit: null,
-                delay: null,
-                direction: null,
-                effectIn: null
-              },
-              createdOn: 0x199b0775799
-            },
-            "e-11": {
-              id: "e-11",
-              name: "",
-              animationType: "custom",
-              eventTypeId: "MOUSE_CLICK",
-              action: {
-                id: "",
-                actionTypeId: "GENERAL_START_ACTION",
-                config: {
-                  delay: 0,
-                  easing: "",
-                  duration: 0,
-                  actionListId: "a-5",
-                  affectedElements: {},
-                  playInReverse: !1,
-                  autoStopEventId: "e-12"
-                }
-              },
-              mediaQueries: ["main", "medium", "small", "tiny"],
-              target: {
-                appliesTo: "ELEMENT",
-                styleBlockIds: [],
-                id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2fa5"
-              },
-              targets: [],
-              config: {
-                loop: !1,
-                playInReverse: !1,
-                scrollOffsetValue: null,
-                scrollOffsetUnit: null,
-                delay: null,
-                direction: null,
-                effectIn: null
-              },
-              createdOn: 0x199b0784934
-            },
-            "e-12": {
-              id: "e-12",
-              name: "",
-              animationType: "custom",
-              eventTypeId: "MOUSE_SECOND_CLICK",
-              action: {
-                id: "",
-                actionTypeId: "GENERAL_START_ACTION",
-                config: {
-                  delay: 0,
-                  easing: "",
-                  duration: 0,
-                  actionListId: "a-6",
-                  affectedElements: {},
-                  playInReverse: !1,
-                  autoStopEventId: "e-11"
-                }
-              },
-              mediaQueries: ["main", "medium", "small", "tiny"],
-              target: {
-                appliesTo: "ELEMENT",
-                styleBlockIds: [],
-                id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2fa5"
-              },
-              targets: [],
-              config: {
-                loop: !1,
-                playInReverse: !1,
-                scrollOffsetValue: null,
-                scrollOffsetUnit: null,
-                delay: null,
-                direction: null,
-                effectIn: null
-              },
-              createdOn: 0x199b0784935
-            },
-            "e-13": {
-              id: "e-13",
-              name: "",
-              animationType: "preset",
-              eventTypeId: "MOUSE_CLICK",
-              action: {
-                id: "",
-                actionTypeId: "POP_EFFECT",
-                config: {
-                  actionListId: "pop",
-                  autoStopEventId: "e-14"
-                },
-                instant: !1
-              },
-              mediaQueries: ["main", "medium", "small", "tiny"],
-              target: {
-                appliesTo: "ELEMENT",
-                styleBlockIds: [],
-                id: "66ccf03f7ceb58d801f12c9e|f52ad268-6859-3744-a5bf-dc4102a90acb"
-              },
-              targets: [],
-              config: {
-                loop: !1,
-                playInReverse: !1,
-                scrollOffsetValue: null,
-                scrollOffsetUnit: null,
-                delay: 0,
-                direction: null,
-                effectIn: null
-              },
-              createdOn: 0x199b093b194
-            },
-            "e-15": {
-              id: "e-15",
-              name: "",
-              animationType: "preset",
-              eventTypeId: "MOUSE_CLICK",
-              action: {
-                id: "",
-                actionTypeId: "POP_EFFECT",
-                config: {
-                  actionListId: "pop",
-                  autoStopEventId: "e-16"
-                },
-                instant: !1
-              },
-              mediaQueries: ["main", "medium", "small", "tiny"],
-              target: {
-                appliesTo: "ELEMENT",
-                styleBlockIds: [],
-                id: "66ccf03f7ceb58d801f12c9e|a59ec100-b162-e9b4-cbfc-52ecccdb9c03"
-              },
-              targets: [],
-              config: {
-                loop: !1,
-                playInReverse: !1,
-                scrollOffsetValue: null,
-                scrollOffsetUnit: null,
-                delay: 0,
-                direction: null,
-                effectIn: null
-              },
-              createdOn: 0x199b0955cc5
-            },
-            "e-17": {
-              id: "e-17",
-              name: "",
-              animationType: "preset",
-              eventTypeId: "MOUSE_CLICK",
-              action: {
-                id: "",
-                actionTypeId: "POP_EFFECT",
-                config: {
-                  actionListId: "pop",
-                  autoStopEventId: "e-18"
-                },
-                instant: !1
-              },
-              mediaQueries: ["main", "medium", "small", "tiny"],
-              target: {
-                appliesTo: "ELEMENT",
-                styleBlockIds: [],
-                id: "66ccf03f7ceb58d801f12c9e|3de9418a-f6f2-6008-5b8b-c53fe0a4a64c"
-              },
-              targets: [],
-              config: {
-                loop: !1,
-                playInReverse: !1,
-                scrollOffsetValue: null,
-                scrollOffsetUnit: null,
-                delay: 0,
-                direction: null,
-                effectIn: null
-              },
-              createdOn: 0x199b095a253
-            },
             "e-19": {
               id: "e-19",
               name: "",
@@ -5598,225 +5286,6 @@
                 }
           },
           actionLists: {
-            a: {
-              id: "a",
-              title: "Abstract 3",
-              actionItemGroups: [{
-                actionItems: [{
-                  id: "a-n",
-                  actionTypeId: "GENERAL_DISPLAY",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 0,
-                    value: "none",
-                    target: {
-                      id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f86"
-                    }
-                  }
-                }]
-              }, {
-                actionItems: [{
-                  id: "a-n-2",
-                  actionTypeId: "GENERAL_DISPLAY",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 0,
-                    value: "block",
-                    target: {
-                      id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f86"
-                    }
-                  }
-                }]
-              }],
-              createdOn: 0x199b070924f,
-              useFirstGroupAsInitialState: !0
-            },
-            "a-2": {
-              id: "a-2",
-              title: "Hide 3",
-              actionItemGroups: [{
-                actionItems: [{
-                  id: "a-2-n",
-                  actionTypeId: "GENERAL_DISPLAY",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 0,
-                    value: "none",
-                    target: {
-                      id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f86"
-                    }
-                  }
-                }]
-              }],
-              createdOn: 0x199b0714874,
-              useFirstGroupAsInitialState: !1
-            },
-            "a-3": {
-              id: "a-3",
-              title: "Abstract 2",
-              actionItemGroups: [{
-                actionItems: [{
-                  id: "a-3-n",
-                  actionTypeId: "GENERAL_DISPLAY",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 0,
-                    value: "none",
-                    target: {
-                      id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f9d"
-                    }
-                  }
-                }]
-              }, {
-                actionItems: [{
-                  id: "a-3-n-2",
-                  actionTypeId: "GENERAL_DISPLAY",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 0,
-                    value: "block",
-                    target: {
-                      id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f9d"
-                    }
-                  }
-                }]
-              }],
-              createdOn: 0x199b0776f40,
-              useFirstGroupAsInitialState: !0
-            },
-            "a-4": {
-              id: "a-4",
-              title: "Hide 2",
-              actionItemGroups: [{
-                actionItems: [{
-                  id: "a-4-n",
-                  actionTypeId: "GENERAL_DISPLAY",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 0,
-                    value: "none",
-                    target: {
-                      id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2f9d"
-                    }
-                  }
-                }]
-              }],
-              createdOn: 0x199b077ea56,
-              useFirstGroupAsInitialState: !1
-            },
-            "a-5": {
-              id: "a-5",
-              title: "Abstract 1",
-              actionItemGroups: [{
-                actionItems: [{
-                  id: "a-5-n",
-                  actionTypeId: "GENERAL_DISPLAY",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 0,
-                    value: "none",
-                    target: {
-                      id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2fab"
-                    }
-                  }
-                }]
-              }, {
-                actionItems: [{
-                  id: "a-5-n-2",
-                  actionTypeId: "GENERAL_DISPLAY",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 0,
-                    value: "block",
-                    target: {
-                      id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2fab"
-                    }
-                  }
-                }]
-              }],
-              createdOn: 0x199b07860e0,
-              useFirstGroupAsInitialState: !0
-            },
-            "a-6": {
-              id: "a-6",
-              title: "Hide 1",
-              actionItemGroups: [{
-                actionItems: [{
-                  id: "a-6-n",
-                  actionTypeId: "GENERAL_DISPLAY",
-                  config: {
-                    delay: 0,
-                    easing: "",
-                    duration: 0,
-                    value: "none",
-                    target: {
-                      id: "66ccf03f7ceb58d801f12c9e|f9600026-4931-43dd-2c12-ba95d69a2fab"
-                    }
-                  }
-                }]
-              }],
-              createdOn: 0x199b07902f1,
-              useFirstGroupAsInitialState: !1
-            },
-            "a-7": {
-                id: "a-7",
-                title: "Show Abstract 4",
-                actionItemGroups: [
-                    {
-                    actionItems: [
-                    {
-                      id: "a-7-show",
-                      actionTypeId: "GENERAL_DISPLAY",
-                        config: {
-                            delay: 0,
-                            easing: "",
-                            duration: 0,
-                            value: "block",
-                            target: {
-                                id: "66ccf03f7ceb58d801f12c9e|ab4"
-                            }
-                        }
-                    }
-                    ]
-                    }
-                ],
-                createdOn: Date.now(),
-                useFirstGroupAsInitialState: false
-                },
-
-                "a-8": {
-                    id: "a-8",
-                    title: "Hide Abstract 4",
-                    actionItemGroups: [
-                    {
-                    actionItems: [
-                        {
-                        id: "a-8-hide",
-                        actionTypeId: "GENERAL_DISPLAY",
-                        config: {
-                            delay: 0,
-                            easing: "",
-                            duration: 0,
-                            value: "none",
-                            target: {
-                              id: "66ccf03f7ceb58d801f12c9e|ab4"
-                            }
-                        }
-                        }
-                      ]
-                    }
-                  ],
-                  createdOn: Date.now(),
-                  useFirstGroupAsInitialState: false
-                },
             pop: {
               id: "pop",
               actionItemGroups: [{
@@ -5955,4 +5424,48 @@
     return n(4432)
   });
   r = n.O(r)
+})();
+
+(() => {
+document.addEventListener("DOMContentLoaded", () => {
+  const titles = document.querySelectorAll("[data-w-id^='paper-']");
+
+  titles.forEach(title => {
+    const id = title.getAttribute("data-w-id");
+    const abstract = document.querySelector(`[data-w-id="${id}-abstract"]`);
+    if (!abstract) return;
+
+    title.addEventListener("click", () => {
+      if (abstract.classList.contains("visible")) {
+        abstract.classList.remove("visible");
+        setTimeout(() => (abstract.style.display = "none"), 300);
+      } else {
+        abstract.style.display = "block";
+        requestAnimationFrame(() => abstract.classList.add("visible"));
+      }
+    });
+  });
+});
+})();
+
+(() => {
+document.addEventListener("DOMContentLoaded", () => {
+  const titles = document.querySelectorAll("[data-w-id^='paper-']");
+
+  titles.forEach(title => {
+    const id = title.getAttribute("data-w-id");
+    const abstract = document.querySelector(`[data-w-id="${id}-abstract"]`);
+    if (!abstract) return;
+
+    title.addEventListener("click", () => {
+      if (abstract.classList.contains("visible")) {
+        abstract.classList.remove("visible");
+        setTimeout(() => (abstract.style.display = "none"), 300);
+      } else {
+        abstract.style.display = "block";
+        requestAnimationFrame(() => abstract.classList.add("visible"));
+      }
+    });
+  });
+});
 })();
