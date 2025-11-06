@@ -2666,7 +2666,7 @@ h1 {
 }
 
 .text-span, .italic-text {
-  cursor: pointer;
+  cursor: default;
 }
 
 .div-block-6 {
