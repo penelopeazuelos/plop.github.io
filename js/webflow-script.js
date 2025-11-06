@@ -5427,45 +5427,33 @@
 })();
 
 (() => {
-document.addEventListener("DOMContentLoaded", () => {
-  const titles = document.querySelectorAll("[data-w-id^='paper-']");
+  document.addEventListener("DOMContentLoaded", () => {
+    const titles = document.querySelectorAll("[data-w-id^='paper-']");
 
-  titles.forEach(title => {
-    const id = title.getAttribute("data-w-id");
-    const abstract = document.querySelector(`[data-w-id="${id}-abstract"]`);
-    if (!abstract) return;
+    titles.forEach(title => {
+      const id = title.getAttribute("data-w-id");
+      const abstract = document.querySelector(`[data-w-id="${id}-abstract"]`);
+      if (!abstract) return;
 
-    title.addEventListener("click", () => {
-      if (abstract.classList.contains("visible")) {
-        abstract.classList.remove("visible");
-        setTimeout(() => (abstract.style.display = "none"), 300);
-      } else {
-        abstract.style.display = "block";
-        requestAnimationFrame(() => abstract.classList.add("visible"));
-      }
+      // Ensure hidden initially via JS (also do in CSS for safety)
+      abstract.style.display = "none";
+
+      title.addEventListener("click", () => {
+        const isVisible = abstract.classList.contains("visible");
+
+        // Cancel any pending timeout
+        if (abstract.hideTimeout) clearTimeout(abstract.hideTimeout);
+
+        if (isVisible) {
+          abstract.classList.remove("visible");
+          abstract.hideTimeout = setTimeout(() => {
+            abstract.style.display = "none";
+          }, 300); // match CSS transition duration
+        } else {
+          abstract.style.display = "block";
+          requestAnimationFrame(() => abstract.classList.add("visible"));
+        }
+      });
     });
   });
-});
-})();
-
-(() => {
-document.addEventListener("DOMContentLoaded", () => {
-  const titles = document.querySelectorAll("[data-w-id^='paper-']");
-
-  titles.forEach(title => {
-    const id = title.getAttribute("data-w-id");
-    const abstract = document.querySelector(`[data-w-id="${id}-abstract"]`);
-    if (!abstract) return;
-
-    title.addEventListener("click", () => {
-      if (abstract.classList.contains("visible")) {
-        abstract.classList.remove("visible");
-        setTimeout(() => (abstract.style.display = "none"), 300);
-      } else {
-        abstract.style.display = "block";
-        requestAnimationFrame(() => abstract.classList.add("visible"));
-      }
-    });
-  });
-});
 })();

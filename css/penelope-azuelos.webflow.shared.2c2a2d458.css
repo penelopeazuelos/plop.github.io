@@ -3678,12 +3678,12 @@ h1 {
 }
 
 
-  .paper-abstract {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  .paper-abstract.visible {
-    display: block;
-    opacity: 1;
-  }
+[data-w-id$="-abstract"] {
+  max-height: 0;             /* collapsed */
+  overflow: hidden;          /* hide content outside */
+  transition: max-height 0.5s ease;  /* smooth slide */
+}
+
+[data-w-id$="-abstract"].visible {
+  max-height: 1000px;        /* safely large to fit content */
+}
