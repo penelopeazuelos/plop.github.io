@@ -5433,7 +5433,6 @@
     titles.forEach(title => {
       const id = title.getAttribute("data-w-id");
       const abstract = document.querySelector(`[data-w-id="${id}-abstract"]`);
-      const arrow = document.querySelector(`[data-w-id="${id}-arrow"]`);
       if (!abstract) return;
 
       // Ensure hidden initially via JS (also do in CSS for safety)
@@ -5447,40 +5446,12 @@
 
         if (isVisible) {
           abstract.classList.remove("visible");
-
-          arrow.classList.remove("up");
-          arrow.classList.add("down");
-          
           abstract.hideTimeout = setTimeout(() => {
             abstract.style.display = "none";
           }, 300); // match CSS transition duration
         } else {
           abstract.style.display = "block";
           requestAnimationFrame(() => abstract.classList.add("visible"));
-          arrow.classList.remove("down");
-          arrow.classList.add("up");
-        }
-      });
-      arrow.addEventListener("click", () => {
-        const isVisible = abstract.classList.contains("visible");
-
-        // Cancel any pending timeout
-        if (abstract.hideTimeout) clearTimeout(abstract.hideTimeout);
-
-        if (isVisible) {
-          abstract.classList.remove("visible");
-
-          arrow.classList.remove("up");
-          arrow.classList.add("down");
-          
-          abstract.hideTimeout = setTimeout(() => {
-            abstract.style.display = "none";
-          }, 300); // match CSS transition duration
-        } else {
-          abstract.style.display = "block";
-          requestAnimationFrame(() => abstract.classList.add("visible"));
-          arrow.classList.remove("down");
-          arrow.classList.add("up");
         }
       });
     });
