@@ -2265,6 +2265,36 @@ h1 {
   align-items: flex-end;
 }
 
+
+/* ////////// Arrows /////////// */
+
+.arrow {
+  display: block;
+  transition: transform 0.3s ease;
+  padding: 0px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.arrow.down {
+  transform: rotate(90deg);
+}
+
+.arrow.up {
+  transform: rotate(0deg);
+}
+
+/* /////// LIST /////////// */
+
+.paper-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5pt;
+  margin-top: 20px;
+}
+
 .list-item {
   cursor: default;
   padding-top: 0;
@@ -2272,8 +2302,13 @@ h1 {
   font-family: Bitter, serif;
   font-size: 17px;
   line-height: 25px;
-  list-style-type: square;
+  display: flex;
+  gap: 10pt;
+  align-items: flex-start;
 }
+
+
+/* /////////////////////////// */
 
 .list {
   text-align: left;
@@ -2301,9 +2336,7 @@ h1 {
   text-align: left;
   max-width: 940px;
   margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 0;
-  padding-right: 20px;
+  margin: 20px;
 }
 
 .navitem {
@@ -3686,4 +3719,17 @@ h1 {
 
 [data-w-id$="-abstract"].visible {
   max-height: 1000px;        /* safely large to fit content */
+}
+
+
+[data-w-id$="-arrow"].down {
+  transform:  90deg;
+}
+
+[data-w-id$="-arrow"].up {
+  transform: rotate(0deg);
+}
+
+[data-w-id$="-arrow"] {
+  transform: rotate(45deg);
 }
