@@ -220,8 +220,6 @@ html {
 }
 
 body {
-  color: #333;
-  background-color: #fff;
   min-height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
@@ -493,13 +491,11 @@ button, [type="button"], [type="reset"] {
 
 .w-form-done {
   text-align: center;
-  background-color: #ddd;
   padding: 20px;
   display: none;
 }
 
 .w-form-fail {
-  background-color: #ffdede;
   margin-top: 10px;
   padding: 10px;
   display: none;
@@ -2051,7 +2047,7 @@ textarea.w-input, textarea.w-select {
   grid-column-gap: 20px;
   grid-auto-columns: 1fr;
   justify-content: center;
-  padding: 20px;
+  padding: 0px;
 }
 
 .w-layout-cell {
@@ -2138,14 +2134,13 @@ h1 {
 }
 
 .link {
-  color: #384c5f;
+  color: #6694C2;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
 }
 
 .body {
-  background-color: #bbaeaa4d;
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -2395,7 +2390,6 @@ h1 {
 .container-5 {
   box-shadow: none;
   object-fit: fill;
-  background-color: #bbaeaacc;
   justify-content: center;
   align-items: flex-start;
   width: 60em;
@@ -2498,21 +2492,19 @@ h1 {
 }
 
 .body-2 {
-  background-color: #bbaeaacc;
   justify-content: center;
   align-items: flex-start;
   display: flex;
 }
 
 .link2 {
-  color: #384c5f;
+  color: #6694C2;
   font-family: Bitter, serif;
   font-weight: 500;
   text-decoration: none;
 }
 
 .container-13 {
-  background-color: #bbaeaacc;
   flex: 0 auto;
 }
 
@@ -2552,7 +2544,7 @@ h1 {
 }
 
 .link-3 {
-  color: #384c5f;
+  color: #6694c2;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
@@ -2614,7 +2606,7 @@ h1 {
   grid-auto-columns: 1fr;
   width: auto;
   max-width: 800px;
-  margin-left: auto;
+  margin-left: 20px;
   margin-right: auto;
   display: block;
   position: static;
@@ -2674,6 +2666,13 @@ h1 {
   text-decoration: none;
 }
 
+.smallheading {
+  padding-top: 5px;
+  font-family: Lato, sans-serif;
+  font-weight:370;
+  font-size:30px;
+}
+
 .navbar-4 {
   display: block;
   position: fixed;
@@ -2689,8 +2688,8 @@ h1 {
 
 .abstract {
   color: #333333e8;
-  background-color: #7285a154;
-  border: 1px solid #7285a1;
+  background-color: #CFDBE7;
+  border: 1px solid #36516D;
   border-radius: 2px;
   margin: 10px 0 20px 20px;
   padding: 10px;
@@ -2713,9 +2712,11 @@ h1 {
 }
 
 .cell-25 {
-  background-color: #647e9ceb;
+  background-color: #4F769F;
   justify-content: flex-start;
   align-items: center;
+  padding-left: 80px;
+  padding-right: 90px;
 }
 
 .nav {
@@ -2735,9 +2736,11 @@ h1 {
 }
 
 .nav2, .nav2.w--current {
-  color: #323941;
+  color: #142433;
   padding: 10px;
   text-decoration: none;
+  font-size:medium;
+  font-family: Bitter, serif;
 }
 
 .quick-stack-11 {
@@ -2990,7 +2993,6 @@ h1 {
   }
 
   .body-2 {
-    background-color: #bbaeaacc;
     background-image: none;
   }
 
@@ -3239,9 +3241,7 @@ h1 {
     margin-bottom: 0;
   }
 
-  .body-2 {
-    background-color: #bbaeaacc;
-  }
+
 
   .div-block {
     clear: none;
@@ -3293,6 +3293,10 @@ h1 {
   .heading-4 {
     font-size: 45px;
     line-height: 50px;
+  }
+
+  .smallheading {
+    font-size:25px;
   }
 
   .abstract {
@@ -3564,6 +3568,11 @@ h1 {
     font-size: 40px;
     line-height: 45px;
   }
+
+  .smallheading {
+    font-size:20px;
+  }
+
 
   .abstract {
     border-color: #7b524e;
