@@ -3309,8 +3309,7 @@ h1 {
 }
 
 .cell-25 {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 0px;
 }
 
 @media screen and (max-width: 479px) {
@@ -3603,7 +3602,7 @@ h1 {
   }
 
   .div-block-8 {
-    background-color: #647e9ceb;
+    background-color: #4F769F;
     border-top: 0 solid #000;
     border-bottom: 1px solid #7b524e;
     min-height: 50px;
