@@ -3574,7 +3574,7 @@ h1 {
   }
 
   .smallheading {
-    font-size:20px;
+    font-size:25px;
   }
 
 
@@ -3590,6 +3590,7 @@ h1 {
     align-items: flex-end;
     padding-left: 0px;
     padding-right: 0px;
+    width: 0px;
   }
 
   .quick-stack-11 {
