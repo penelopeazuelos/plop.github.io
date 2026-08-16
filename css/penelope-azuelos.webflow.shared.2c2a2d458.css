@@ -3533,7 +3533,7 @@ h1 {
   }
 
   .quick-stack-8 {
-    padding: 0px;
+    padding-bottom: 0;
   }
 
   .quick-stack-9 {
@@ -3545,6 +3545,7 @@ h1 {
 
   .div-block-3 {
     padding-top: 0;
+    margin-left: 0px;
   }
 
   .heading-3 {
