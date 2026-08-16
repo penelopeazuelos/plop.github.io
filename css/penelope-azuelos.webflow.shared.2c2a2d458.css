@@ -3308,6 +3308,11 @@ h1 {
   }
 }
 
+.cell-25 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 @media screen and (max-width: 479px) {
   .quick-stack {
     margin-top: 0;
@@ -3584,6 +3589,8 @@ h1 {
     flex-flow: row;
     justify-content: flex-end;
     align-items: flex-end;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .quick-stack-11 {
