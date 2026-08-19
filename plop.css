@@ -254,7 +254,7 @@ p {
     }
 
     #m {
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
 
@@ -262,8 +262,8 @@ p {
     .navlink {
         display: inline;
         padding: 5px;
-        margin-inline: 7px;
-        border: 1px solid #7b524e;
+        margin-inline: 5px;
+        background-color: transparent;
     }
     
     #content {
