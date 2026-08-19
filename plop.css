@@ -229,6 +229,10 @@ p {
         width: 15px;
     }
 
+    .paper_list {
+        margin-left: 10px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -307,5 +311,10 @@ p {
 
     #blackboard {
         width: 0px;
+        margin: 0px
+    }
+
+    .paper_list {
+        margin-left: 0;
     }
 }
